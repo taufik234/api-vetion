@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow.keras.models import load_model
 
 # Load the trained model (replace 'my_model.h5' with your actual path)
-model = load_model('app/MyModel.h5')
+model = load_model('app/ModifiedModel.h5')
 
 # Define labels (replace with your actual class names)
 labels = {
